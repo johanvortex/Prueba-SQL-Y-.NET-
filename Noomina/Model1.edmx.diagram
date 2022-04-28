@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="e450e7a9f86444b185c8b2b7a18d906f" Name="Diagram1">
+        <EntityTypeShape EntityType="NominaModel.NOM_CONCEPTOS_NOMINA" Width="1.5" PointX="3" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="NominaModel.NOM_EMPLEADO" Width="1.5" PointX="3" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="NominaModel.NOM_NOMINA_DEFINITIVA" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="NominaModel.REG_SOLICITUDES_INGRESOS" Width="1.5" PointX="0.75" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="NominaModel.sysdiagrams" Width="1.5" PointX="5.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NominaModel.log_consulta_nom_nomina_definitiva" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="NominaModel.FK_NOM_NOMINA_DEFINITIVA_NOM_CONCEPTOS_NOMINA" ManuallyRouted="false" />
+        <AssociationConnector Association="NominaModel.FK_NOM_EMPLEADO_REG_SOLICITUDES_INGRESOS1" ManuallyRouted="false" />
+        <AssociationConnector Association="NominaModel.FK_NOM_NOMINA_DEFINITIVA_NOM_EMPLEADO" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
